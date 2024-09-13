@@ -15,7 +15,7 @@ const App = () => {
           </div>
           <h3 style={{margin:"0"}}>
         
-        <strong> For More Enquiries, kindly Email Us.</strong>   
+        <strong> For More Enquiries, Kindly Email Us.</strong>   
           </h3>
           <h3 style={{marginTop:"7px"}}>
           Evolve@vpvvglobal.com

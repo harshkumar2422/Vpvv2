@@ -18,3 +18,13 @@
 .card img{
   width: 13rem;
 }
+.Heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.Heading h1{
+  margin: 7px;
+}

@@ -8,7 +8,10 @@ const App = () => {
         <div className="card">
           <img src={logo} />
           <div className="Heading">
-          <h1> Welcome To The VPVV</h1>
+            <h1> Welcome To The</h1>
+            <h1>
+            VPVV
+            </h1>
           </div>
           <h3 style={{margin:"0"}}>
         

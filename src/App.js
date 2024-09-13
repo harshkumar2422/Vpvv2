@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import "./App.css";
+import logo from "./logo-vpvv.png"
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="all">
+        <div className="card">
+          <img src={logo} />
+          <div className="Heading">
+          <h1> Welcome To The VPVV</h1>
+          </div>
+          <h3 style={{margin:"0"}}>
+        
+        <strong> For More Enquiries, kindly Email Us.</strong>   
+          </h3>
+          <h3 style={{marginTop:"7px"}}>
+          Evolve@vpvvglobal.com
+          </h3>
+        
+        </div>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
